@@ -1,8 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(/assets/images/bg.jpg);
-    
 }
 #nav_bar{
 display: flex;
@@ -42,5 +40,5 @@ align-items: center;
     display: none;
 }
 #nav_links.mobile-menu{
-    margin-top: 0;
+    margin-left: 0;
 }
