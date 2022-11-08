@@ -1,5 +1,5 @@
 @media screen and (max-width:992px) {
-    #nav_links{
+    #nav_links {
         position: absolute;
         background-color: rgba(255, 255, 255, 0.104);
         height: 100vh;
@@ -9,24 +9,28 @@
         justify-content: center;
         align-items: center;
         backdrop-filter: blur(7px);
-        margin-left: 100%;
+        margin-left: -100%;
+        transition: all 0.5s ease;
     }
-    #nav_links ul{
+
+    #nav_links ul {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .menu_btn{
+
+    .menu_btn {
         display: block;
     }
-    #nav_bar #nav_links ul li{
+
+    #nav_bar #nav_links ul li {
         margin: 25px 0;
         font-size: 1.2em;
     }
-#nav_bar #logo{
-    font-size: 1.5em;
+
+    #nav_bar #logo {
+        font-size: 1.5em;
+    }
 }
-}
-@media screen and (max-width:576px) {
-    
-}
+
+@media screen and (max-width:576px) {}
