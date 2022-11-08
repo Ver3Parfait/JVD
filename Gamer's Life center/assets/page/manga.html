@@ -5,16 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/assets/css/manga.css">
-<link rel="stylesheet" href="/assets/css/manga_responsive.css">
+    <link rel="stylesheet" href="/assets/css/manga_responsive.css">
+    <link href="https://fr.allfont.net/allfont.css?fonts=komika-sketch" rel="stylesheet" type="text/css" />
+    <link href="https://fr.allfont.net/allfont.css?fonts=mouth-breather-bb" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="/index.html">
 </head>
-
 <body>
+    <nav id="nav_bar">
+        <h1><a href="" id="logo">Gamer's Life Center</a></h1>
+        <div id="nav_links">
+            <ul>
+                <li id="active"><a href="/index.html">Acceuil</a></li>
+                <li><a href="">Manga</a></li>
+                <li><a href="">Film</a></li>
+                <li><a href="">Jeux</a></li>
+                <li><a href="">Compte</a></li>
+            </ul>
+        </div>
+        <img class="menu_btn" src="/assets/images/menu-btn.png" alt="">
+    </nav>
+    </header>
     <main>
-        <section><h2>Manga</h2></section>
-    
-    
-    
+        <section>
+            <h2 id="title">Manga :</h2>
+        </section>
+        <section>
+            <h2>D'ou ça vient et qu'est ce que c'est ?</h2>
+            <article>
+                <h3>D'ou ça vient :</h3>
+                <div>
+                    <p id="porigine">Il s'agissait d'une BD humoristique publiée sur le journal Jiji Shinpō. Son auteur,
+                        Rakuten
+                        Kitazawa, avait illustré le thème de l'Arroseur arrosé, le célèbre court-métrage français des
+                        frères Lumière. C'est le premier à réutiliser le terme de manga après <a target="_blank"
+                            href="https://fr.wikipedia.org/wiki/Hokusaihttps://fr.wikipedia.org/wiki/Hokusai">Hokusai.</a>
+                    </p>
+                    <img id="first_manga" src="/assets/images/firstmanga.jpg" alt="image du tout premier manga ">
+            </article>
+            </div>
+            <div>
+                <p id="pphoto">Premier Manga :</p>
+            </div>
+            <article>
+                <h3>Qu'est ce que c'est :</h3>
+                <div>
+                    <p>
+                        Le terme « manga » est composé de deux idéogrammes (ou Kanji) : « man » , qui signifie, selon le
+                        contexte, l'imprécision ou la légèreté, et « ga » qui désigne la représentation graphique. On
+                        pourrait donc traduire « manga » par « dessin au trait libre » ou bien esquisse au gré de la
+                        fantaisie ».
+                    </p>
+
+                </div>
+            </article>
+        </section>
     </main>
 </body>
+<script>
+    const menuHamburger = document.querySelector(".menu_btn")
+    const navLinks = document.querySelector("#nav_links")
 
+    menuHamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('mobile-menu')
+    })
+</script>
 </html>
