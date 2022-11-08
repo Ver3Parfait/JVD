@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-image: url(/assets/images/bg.jpg);
-    background-size: cover;
+    
 }
 #nav_bar{
 display: flex;
