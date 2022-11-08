@@ -5,44 +5,6 @@ background-image: url(/assets/images/bg.jpg);
     background-size: cover;
     color: white;
 }
-#nav_bar{
-    display: flex;
-    box-sizing: border-box;
-    justify-content: space-between;
-    width: 100%;
-    align-items: center;
-    }
-    #nav_links ul li a{
-        display: flex;
-        margin: 0 25px;
-    }
-    #nav_bar a{
-        color: white;
-        text-decoration: none;
-    }
-    #nav_bar ul{
-        list-style-type: none;
-    }
-    #nav_bar #logo{
-        padding-left: 10px;
-        font-size: 2em;
-        font-weight: bold;
-    }
-    #nav_bar #nav_links ul{
-        display: flex;
-    }
-    #active a{
-        color:rgb(243, 89, 89);
-        font-weight: 600;
-    }
-    .menu_btn{
-        height: 35px;
-        position: absolute;
-        top:30px;
-        right: 30px;
-        display: none;
-    }
-
 #title {
     color: rgb(255, 255, 255);
     font-family: 'Komika Sketch', arial;
@@ -81,6 +43,4 @@ a:hover {
 main{
     font-family: 'Mouth Breather BB', arial;
 }
-#nav_links.mobile-menu{
-    margin-left: 0;
-}
+
