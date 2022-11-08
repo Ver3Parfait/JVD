@@ -4,66 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/responsive_index.css">
-    <title>Responsive</title>
+    <link rel="stylesheet" href="/assets/css/responsive_index.css">            
+    <title>Gamer's Life Center</title>
 </head>
-
+<header>
+<nav id="nav_bar">
+    <h1><a href="" id="logo">Gamer's Life Center</a></h1>
+    <div id="nav_links">
+        <ul>
+            <li id="active"><a href="">Acceuil</a></li>
+            <li><a href="">Manga</a></li>
+            <li><a href="">Film</a></li>
+            <li><a href="">Jeux</a></li>
+            <li><a href="">Compte</a></li>
+        </ul>
+    </div>
+    <img id="menu_btn" src="/assets/images/menu-btn.png" alt="">
+</nav>
+</header>
 <body>
-    <header>
-        <h1>Gamer's Life Center</h1>
-        <nav>
-            <ul class="menu_scroll">
-                <li id="jeux" class="menu_title"><a href="">Jeux</a>
-                    <ul class="scroll">
-                        <li><a href="">Action</a></li>
-                        <li><a href="">Fantasy</a></li>
-                        <li><a href="">SF</a></li>
-                    </ul>
-                </li>
-                <li id="manga" class="menu_title"><a href="">Manga</a>
-                    <ul class="scroll">
-                        <li><a href="">Shonen</a></li>
-                        <li><a href="">Seinen</a></li>
-                        <li><a href="">Anime</a></li>
-                    </ul>
-                </li>
-                <li id="figurine" class="menu_title"><a href="">Figurine</a>
-                    <ul class="scroll">
-                        <li><a href="">Manga</a></li>
-                        <li><a href="">Jeux</a></li>
-                        <li><a href="">Film</a></li>
-                    </ul>
-                </li>
-                <li id="materiel" class="menu_title"><a href="">Matériels</a>
-                    <ul class="scroll">
-                        <li><a href="">Pièce détacher</a></li>
-                        <li><a href="">Ordinateur</a></li>
-                        <li><a href="">Console</a></li>
-                    </ul>
-                </li>
-                <li id="accesoires" class="menu_title"><a href="">Accessoires</a>
-                    <ul class="scroll">
-                        <li><a href="">Informatique</a></li>
-                        <li><a href="">Console</a></li>
-                        <li><a href="">Jeux</a></li>
-                    </ul>
-                </li>
-                <li id="forum" class="menu_title"><a href="">Forum</a></li>
-                <li id="compte" class="menu_title"><a href="">Compte</a>
-                    <ul class="scroll">
-                        <li><a href="">Profil</a></li>
-                        <li><a href="">Personalisation</a></li>
-                        <li><a href="">F.A.Q</a></li>
-                    </ul>
-                </li>
-                <li><input id="sb" type="search"></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        
-    </main>
+    <header></header>
 </body>
-<div id="box1"></div>
+<script>
+    const menuHamburger = document.querySelector("#menu-btn")
+    const navLinks = document.querySelector("#nav_links")
 
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.class.toggle('mobile-menu')
+    })
+</script>
 </html>
