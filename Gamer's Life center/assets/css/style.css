@@ -41,3 +41,6 @@ align-items: center;
     right: 30px;
     display: none;
 }
+#nav_links.mobile-menu{
+    margin-left: 0;
+}
