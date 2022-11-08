@@ -1,0 +1,151 @@
+@media screen and (max-width:2192px) {
+    .menu_title{
+        margin-left: 4vw;
+    }
+    }
+    @media screen and (max-width:2430px) {
+        #sb {
+            width: 275px;
+    }
+    }
+    @media screen and (max-width:1930px) {
+        #sb {
+            width: 300px;
+        }
+        .menu_title{
+            margin-left: 3.8vw;
+        }
+    
+    }
+    @media screen and (max-width:1906px) {
+        #sb {
+            width: 300px;
+        }
+    
+    }
+    
+    @media screen and (max-width:1744px) {
+        #sb {
+            width: 200px;
+        }
+    
+    }
+    
+    @media screen and (max-width:1602px) {
+        .menu_title{
+            margin-left: 5em;
+        }
+        #sb {
+    
+            display: none;
+        }
+    
+    }
+    
+    @media screen and (max-width:1500px) {
+        #web_title {
+            font-size: 30px;
+        }
+    
+        nav .menu_scroll {
+            font-size: 30px;
+    
+        }
+    
+        .menu_title {
+            margin-left: 3.5vw;
+        }
+    }
+    
+    @media screen and (max-width:1350px) {
+        #web_title {
+            font-size: 30px;
+        }
+    
+        nav .menu_scroll {
+            font-size: 30px;
+        }
+    
+        .menu_title {
+            margin-left: 2vw;
+        }
+    
+    }
+    
+    @media screen and (max-width:1200px) {
+        #web_title {
+            font-size: 25px;
+        }
+    
+        nav .menu_scroll {
+            font-size: 25px;
+        }
+    
+        .menu_title {
+            margin-left: 2.5vw;
+        }
+    }
+    
+    @media screen and (max-width:1050px) {
+        .box{
+    display: none;
+        }
+        header {
+            margin-top: 20px;
+            margin-left: 20px;
+            padding: 0;
+            background: none;
+        }
+    
+        #web_title {
+            font-size: 35px;
+            border-right: none;
+            text-decoration: underline rgb(190, 166, 166);
+        }
+    
+        nav .menu_scroll,
+        .menu_title {
+            font-size: 25px;
+            padding-top: 25px;
+            float: none;
+        }
+    
+        .menu_title {
+            margin-left: 2vw;
+            border-right: none;
+            border-radius: 0;
+            border-bottom: 5px solid grey;
+        }
+    
+        nav {
+            width: 100px;
+        }
+    
+        #jeux {
+            width: 50px;
+        }
+    
+        #manga {
+            width: 70px;
+        }
+    
+        #materiel {
+            width: 95px;
+        }
+    
+        #accesoires {
+            width: 120px;
+        }
+    
+        #forum {
+            width: 69px;
+        }
+    
+        .menu_scroll .scroll {
+            position: relative;
+        }
+    
+        nav .menu_scroll li ul li a {
+            color: cornflowerblue;
+        }
+    }
