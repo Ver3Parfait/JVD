@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="/assets/css/manga_responsive.css">
     <link href="https://fr.allfont.net/allfont.css?fonts=komika-sketch" rel="stylesheet" type="text/css" />
     <link href="https://fr.allfont.net/allfont.css?fonts=mouth-breather-bb" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="/index.html">
     <link rel="stylesheet" href="/assets/css/nav.css">
     <link rel="stylesheet" href="/assets/css/responsive_nav.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+    <link rel="stylesheet" href="/assets/css/footer_responsive.css">
+
 </head>
 
 <body>
@@ -33,7 +35,7 @@
             <h2 id="title">Manga :</h2>
         </section>
         <section>
-            <h2>D'ou ça vient et qu'est ce que c'est ?</h2>
+            <h2 id="title2">D'ou ça vient et qu'est ce que c'est ?</h2>
             <article>
                 <h3>D'ou ça vient :</h3>
                 <div id="first">
@@ -45,7 +47,7 @@
                         <a target="_blank" href="https://fr.wikipedia.org/wiki/Hokusai">Hokusai.</a>
                     </p>
                     <img id="first_manga" src="/assets/images/firstmanga.jpg" alt="image du tout premier manga ">
-                </article>
+            </article>
             </div>
             <article>
                 <h3>Qu'est ce que c'est :</h3>
@@ -60,15 +62,47 @@
                 </div>
             </article>
         </section>
+        <section>
+            <h2>Les Styles de manga !</h2>
+            <article class="shonen">
+                <h3 id="title4">Le Shonen :</h3>
+                <p>Un manga est considéré comme un shōnen s'il est prépublié au Japon dans un magazine
+                    dont la cible première est composée d'adolescents ou de jeunes de genre masculin, tels que Weekly
+                    Shōnen Jump.</p>
+                <img id="shonen" src="/assets/images/shonen.jpg" alt="photo de plusieurs shonen">
+                <li><a class="shonen" target="_blank" href="https://lelscans.net/scan-one-piece/1065">Petit lien qui
+                        vous permettra d'acceder a un site pour en lire</a></li>
+            </article>
+            <article class="seinen">
+                <h3 id="seinen">Seinen :</h3>
+                <p>Le seinen manga est utilisé pour désigner une ligne éditoriale de manga, dont la cible éditoriale est
+                    avant tout constituée par les jeunes adultes de sexe masculin.</p>
+                <img id="berserk" src="/assets/images/berserk.jpg" alt="photo de seinen">
+            </article>
+            <article id="josei" class="josei">
+                <h3 id="tiltejosei">Josei</h3>
+                <p> Formellement le josei se destine à un public de femmes adultes, insérées dans la vie active et/ou
+                    mariées et s'adresse ainsi à un lectorat plus âgé que celui du shōjo manga</p>
+                <div id="divjosei">
+                    <img class="imgjosei" src="/assets/images/josei1.webp" alt="un josei">
+                    <img class="imgjosei" src="/assets/images/josei2.jpg" alt="un autre josei">
+                    <img class="imgjosei" src="/assets/images/josei3.jpg" alt="un autre josei">
+                </div>
+            </article>
+        </section>
     </main>
+    <footer id="footer_bar">
+        <div id="footer_links">
+            <ul>
+                <li><a href="">Discord</a></li>
+                <li><a href="">F.A.Q</a></li>
+                <li><audio id="audio_footer" autoplay controls
+                        src="/assets/audio/Numa Numa Original Music Video copie.mp3"></audio></li>
+            </ul>
+        </div>
+        <h2><a id="logof" href="#top">Gamer's Life Center</a></h2>
+    </footer>
 </body>
-<script>
-    const menuHamburger = document.querySelector(".menu_btn")
-    const navLinks = document.querySelector("#nav_links")
-
-    menuHamburger.addEventListener('click', () => {
-        navLinks.classList.toggle('mobile-menu')
-    })
-</script>
+<script src="/assets/script/script_nav.js"></script>
 
 </html>

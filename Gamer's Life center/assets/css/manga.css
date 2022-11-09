@@ -1,12 +1,11 @@
 body {
     margin: 0;
     padding: 0;
-background-image: url(/assets/images/bg.jpg);
-    background-size: cover;
+    background-image: url(/assets/images/bg.jpg);
     color: white;
 }
 #title {
-    color:orange;
+    color:gold;
     font-family: 'Komika Sketch', arial;
     font-size: 50px;
     text-align: center; 
@@ -15,7 +14,7 @@ p {
     line-height: 2em;
 color:gold;
 font-size: 20px;
-margin-left: 100px;
+margin-left: 50px;
 }
 
 #first_manga {
@@ -50,4 +49,86 @@ h3{
 h2{
     font-size: 40px;
 }
-
+#title2{
+    display: flex;
+    justify-content: center;
+}
+#shonen{
+    height: 50%;
+border-radius: 5%;
+}
+.shonen{
+    text-align: center;
+color: rgb(255, 165, 0);
+margin: 20px;
+background-color: rgba(255, 166, 0, 0.087);
+backdrop-filter: blur(7px);
+border-radius: 5%;
+}
+.shonen p{
+    color: orange;
+}
+#title4{
+    color: black;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color:rgba(255, 255, 0, 0.753);
+    font-family: 'shonen punk v2', sans-serif;
+padding-top: 20px;
+}
+section article li{
+    padding: 50px;
+    list-style-type: none;
+}
+.seinen{
+    text-align: center;
+    background-color:rgba(101, 31, 31, 0.175);
+    backdrop-filter: blur(7px);
+    border-radius: 5%;
+    margin: 20px;
+}
+#seinen{
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(133, 131, 131);
+    color: rgb(101, 31, 31);
+font-family: 'shonen punk v2', sans-serif;
+padding: 20px;
+}
+.seinen p{
+    color: white;
+}
+#berserk{
+    border-radius: 5%;
+margin-bottom: 50px;
+border: 2px solid;
+border-color:rgb(101, 31, 31); ;
+}
+.imgjosei{
+    height:300px ;
+margin: 50px;
+border: 2px solid;
+border-color: pink;
+border-radius: 5%;
+}
+.josei {
+ text-align: center;
+}
+#josei{
+    background-color:rgba(255, 192, 203, 0.22) ;
+    backdrop-filter: blur(7px);
+    border-radius: 5%;
+    margin: 20px;
+}
+#josei p{
+    color: pink;
+}
+#tiltejosei{
+    padding: 20px;
+    font-family: 'shonen punk v2', sans-serif;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: white;
+    color: pink;
+}
+#divjosei{
+display: flex;
+justify-content: center;
+}

@@ -6,8 +6,26 @@ align-items: center;
 }
 #first_manga{
   height: 300px;
+width: 400px;
+}
+#title2{
+    display: flex;
+
+}
+#divjosei{
+    display: flex;
+
+flex-wrap: wrap;
+}
+.imgjosei{
+    height: 400px;
 width: 300px;
 }
 }
 
-@media screen and (max-width:576px) {}
+@media screen and (max-width:576px) {
+    #first_manga{
+        height: 200px;
+      width: 200px;
+      }
+}
