@@ -18,8 +18,12 @@ width: 400px;
 flex-wrap: wrap;
 }
 .imgjosei{
-    height: 400px;
-width: 300px;
+    height: 200px;
+width: 150px;
+}
+#imgshojo{
+    height: 150px;
+    width: 150px;
 }
 }
 
@@ -28,4 +32,13 @@ width: 300px;
         height: 200px;
       width: 200px;
       }
-}
+      #divjosei{
+        display: flex;
+    
+    flex-wrap: wrap;
+    }
+    .imgjosei{
+        height: 150px;
+    width: 125px;
+    }
+    }
