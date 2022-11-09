@@ -1,3 +1,8 @@
+::before,::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body {
     background-image: url(/assets/images/bg.jpg);
     margin: 0;
@@ -6,7 +11,7 @@ body {
 }
 
 #block_welcome {
-    color: rgb(187, 65, 243);
+    color: rgba(187, 65, 243, 0.261);
     display: flex;
     justify-content: center;
     background: linear-gradient(90deg, rgba(108, 9, 121, 0.157) 39%, rgba(0, 213, 255, 0.145) 100%);
@@ -42,7 +47,27 @@ body {
     font-size: 4em;
     width: 100%;
 }
+.galerie{
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    width: 80%;
+    margin: 70px auto 0;
+    max-width: 1300px;
+}
+.selection{
+    background-color: red;
+    height: 200px;
+    width:300px;
+    margin: 10px 10px 30px;
 
+}
+#selection{
+    font-size: 2em;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
 @keyframes glisse {
     0% {
         transform: translateX(60%);
