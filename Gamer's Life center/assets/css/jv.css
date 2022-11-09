@@ -23,7 +23,9 @@ margin-left: 100px;
 article div {
     display: flex;
 }
-
+#dofus{
+    height: 250px;
+}
 a {
     color: gold;
 }
@@ -37,6 +39,8 @@ a:hover {
 }
 
 #porigine {
+    background:linear-gradient(90deg, rgba(169, 143, 13, 0.382) 39%, rgba(255, 0, 0, 0.225) 100%);
+    border-radius: 25px;
 
 }
 main{
@@ -44,11 +48,13 @@ main{
 }
 .st{
     font-size: 30px;
-    color: orange    ;
+    color: orange;
+    
 }
 
 
 .title{
     color: red;
-    font-size: 40px;
+    font-size: 60px;
+    
 }
