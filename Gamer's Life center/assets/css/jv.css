@@ -16,10 +16,10 @@ font-size: 20px;
 margin-left: 100px;
 }
 
-#first_manga {
-    height: 300px;
+#wow {
+    height: 250px;
 }
-
+#dofus{height:300px ;}
 article div {
     display: flex;
 }
@@ -42,13 +42,13 @@ a:hover {
 main{
     font-family: 'Mouth Breather BB', arial;
 }
-h3{
+.st{
     font-size: 30px;
-    color: orange   ;
+    color: orange    ;
 }
-h2{
+
+
+.title{
+    color: red;
     font-size: 40px;
-color: red;
-
 }
-
