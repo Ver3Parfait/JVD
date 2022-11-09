@@ -8,11 +8,11 @@
    #footer_bar #logof{
         font-size: 1em;
     }
-    #audio_footer{
-        width: 150px;
-    }
     #footer_links ul li a{
         margin:0 20px;
+    }
+    #logof{
+        display: none;
     }
 }
 @media screen and (max-width:576px){

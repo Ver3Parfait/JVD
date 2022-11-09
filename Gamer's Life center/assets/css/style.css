@@ -52,14 +52,14 @@ body {
     flex-wrap: wrap;
     display: flex;
     width: 80%;
-    margin: 70px auto 0;
+    margin: 70px auto 30px;
     max-width: 1300px;
 }
 .selection{
     background-color: red;
     height: 200px;
     width:300px;
-    margin: 10px 10px 30px;
+    margin:10px;
 
 }
 #selection{

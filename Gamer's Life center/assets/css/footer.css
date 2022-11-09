@@ -25,13 +25,6 @@ body {
 #footer_bar ul {
     list-style-type: none;
 }
-
-#footer_bar #logof {
-    padding-right: 20px;
-    font-size: 1.3em;
-    font-weight: bold;
-}
-
 #footer_bar #footer_links ul {
     display: flex;
     position: absolute;
@@ -49,6 +42,45 @@ body {
 #footer_bar #logof{
     position: absolute;
     bottom: 15px;
-    right: 5px;
+    right: 80px;
     color: red;
+    padding-right: 20px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.floating-btn {
+    position: absolute;
+    bottom:0;
+    right:0;
+    margin: 15px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+border-radius: 50%;
+background: linear-gradient(5deg, purple, pink);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.floating-btn img {
+    width: 30px;
+    height: 30px;
+}
+.floating-btn .tooltip {
+    position: absolute;
+    background: #fff;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 3px;
+    text-align: left;
+    line-height: 1.4;
+    width: 250px;
+    transform: translate(-180px, -50%);
+    box-shadow: 0 2px 15px rgba(0,0,0,0.2);
+    pointer-events: none;
+    display: none;
+}
+.floating-btn:hover .tooltip {
+    display: block;
 }
