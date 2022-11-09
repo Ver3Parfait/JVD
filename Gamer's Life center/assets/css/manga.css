@@ -18,7 +18,7 @@ body {
 
 p {
     line-height: 2em;
-    color: gold;
+    color: rgb(0, 0, 0);
     font-size: 20px;
     margin-left: 50px;
 }
@@ -32,19 +32,27 @@ article div {
 }
 
 a {
-    color: gold;
+    color: rgb(0, 0, 0);
 }
 
 a:hover {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 #pphoto {
     display: flex;
     justify-content: flex-end;
 }
+#firstsect{
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.256);
+    backdrop-filter: blur(7px);
+    border-radius: 1%;
+}
+#porigine {
 
-#porigine {}
+}
 
 main {
     font-family: 'Mouth Breather BB', arial;
@@ -61,6 +69,7 @@ h3 {
 #title2 {
     display: flex;
     justify-content: center;
+font-size: 40px;
 }
 
 #shonen {
@@ -181,4 +190,115 @@ section article li {
 #shojo p{
     color: red;
 margin: 40px;
+}
+.grid{
+    text-align: center;
+    font-weight: bolder;
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+}
+.letter-anim, .letter-anim span{
+    display: inline-block;
+}
+.grid span{
+    cursor: pointer;
+    position: relative;
+    font-size: 150px;
+    perspective: 550px;
+}
+.letter-anim span::before,
+.letter-anim span::after {
+    position: absolute;
+    content: attr(data-letter);
+    inset: 0;
+    transform-origin: left;
+}
+.letter-anim span::before{
+    transition: transform 0.4s ease-out;
+    color: rgba(0,0,0,O.122);
+}
+.letter-anim span::after{
+    color: #f1f1f1;
+    transition: transform 0.4s ease-out,
+    color 0.4s ease-out;
+transform: rotateY(-30deg);
+}
+.letter-anim:hover span::after{
+    transform: rotateY(-40deg);
+}
+.letter-anim:hover span::before {
+    transform: scale(0.85) skewY(20deg);
+}
+.letter-anim:nth-child(1):hover span::after { color: gold;}
+.letter-anim:nth-child(2):hover span::after { color: rgb(255, 165, 0);}
+.letter-anim:nth-child(3):hover span::after { color: rgb(0, 13, 255);}
+.letter-anim:nth-child(4):hover span::after { color: rgba(128, 0, 128);}
+.letter-anim:nth-child(5):hover span::after { color: red;}
+
+details, summary {
+    max-width: 500px;
+}
+details{
+background-color: #000000;
+cursor: pointer;
+border-radius: 15px;
+margin: 100px auto 0;
+margin-top: 0;
+box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+color: rgb(255, 255, 255);
+}
+summary {
+    user-select: none;
+    padding: 25px;
+    font-size: 22px;
+    list-style-type: none;
+}
+details ul li {
+    line-height: 1.5;
+    padding: 0px 25px 25px;
+    cursor: auto;
+}
+details summary::before {
+content:"☠️";
+display: inline-block;
+margin-right: 10px;
+transition: transform 0.4s ease-out;
+}
+details[open] summary::before {
+    transform: rotate(360deg);
+}
+.floating-btn {
+    position: fixed;
+    bottom: 50px;
+    right: 17px;
+    width: 75px;
+    height: 75px;
+    border: none;
+    cursor: pointer;
+border-radius: 50%;
+background: linear-gradient(5deg, purple, pink);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.floating-btn img {
+    width: 50px;
+    height: 50px;
+}
+.floating-btn .tooltip {
+    position: absolute;
+    background: #fff;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 3px;
+    text-align: left;
+    line-height: 1.4;
+    width: 250px;
+    transform: translate(-180px, -50%);
+    box-shadow: 0 2px 15px rgba(0,0,0,0.2);
+    pointer-events: none;
+    display: none;
+}
+.floating-btn:hover .tooltip {
+    display: block;
 }
