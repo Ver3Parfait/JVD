@@ -3,3 +3,52 @@ body {
     margin: 0;
     padding: 0;
 }
+#title {
+    color:orange;
+    font-family: 'Komika Sketch', arial;
+    font-size: 50px;
+    text-align: center; 
+}
+p {
+    line-height: 2em;
+color:gold;
+font-size: 20px;
+margin-left: 100px;
+}
+
+#first_manga {
+    height: 300px;
+}
+
+article div {
+    display: flex;
+}
+
+a {
+    color: gold;
+}
+a:hover {
+    color: white;
+}
+
+#pphoto {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#porigine {
+
+}
+main{
+    font-family: 'Mouth Breather BB', arial;
+}
+h3{
+    font-size: 30px;
+    color: orange   ;
+}
+h2{
+    font-size: 40px;
+color: red;
+
+}
+
