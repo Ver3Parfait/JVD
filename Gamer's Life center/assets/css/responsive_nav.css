@@ -1,7 +1,7 @@
 @media screen and (max-width:992px) {
     #nav_links{
         position: absolute;
-        background-color: rgba(255, 255, 255, 0.104);
+        background-color: rgba(255, 255, 255, 0.026);
         height: 100%;
         width: 100%;
         top: 0;
@@ -24,7 +24,10 @@
         margin: 25px 0;
         font-size: 1.2em;
     }
+    
     #nav_bar #logo{
+        bottom: 0;
     font-size: 1.5em;
     }
 }
+

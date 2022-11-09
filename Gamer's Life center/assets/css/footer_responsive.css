@@ -1,3 +1,26 @@
 @media screen and (max-width:992px) {
+    #footer_links ul li a{
+        font-size: 1em;
+    }
+    #audio_footer{
+        margin:0
+    }
+   #footer_bar #logof{
+        font-size: 1em;
+    }
+    #audio_footer{
+        width: 150px;
+    }
+    #footer_links ul li a{
+        margin:0 20px;
+    }
+}
+@media screen and (max-width:576px){
+    #logof{
+        display: none;
+    }
+    #audio_footer{
+        width: 200px;
+    }
     
 }
