@@ -1,5 +1,13 @@
 @media screen and (max-width:992px) {
-
+#first{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+#first_manga{
+  height: 300px;
+width: 300px;
+}
 }
 
 @media screen and (max-width:576px) {}

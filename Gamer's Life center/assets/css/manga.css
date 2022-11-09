@@ -6,18 +6,20 @@ background-image: url(/assets/images/bg.jpg);
     color: white;
 }
 #title {
-    color: rgb(255, 255, 255);
+    color:orange;
     font-family: 'Komika Sketch', arial;
-    font-size: 30px;
-    text-align: center;
+    font-size: 50px;
+    text-align: center; 
 }
-
 p {
     line-height: 2em;
+color:gold;
+font-size: 20px;
+margin-left: 100px;
 }
 
 #first_manga {
-    height: 200px;
+    height: 300px;
 }
 
 article div {
@@ -25,11 +27,10 @@ article div {
 }
 
 a {
-    color: white;
+    color: gold;
 }
-
 a:hover {
-    color: red;
+    color: white;
 }
 
 #pphoto {
@@ -38,9 +39,15 @@ a:hover {
 }
 
 #porigine {
-    color: rgb(0, 0, 0);
+
 }
 main{
     font-family: 'Mouth Breather BB', arial;
+}
+h3{
+    font-size: 30px;
+}
+h2{
+    font-size: 40px;
 }
 
