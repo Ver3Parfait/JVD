@@ -236,7 +236,7 @@ section article li {
 }
 
 .letter-anim:hover span::after {
-    transform: rotateY(-60deg);
+    transform: rotateY(-100deg);
 }
 
 .letter-anim:hover span::before {
