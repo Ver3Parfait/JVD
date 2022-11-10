@@ -5,8 +5,55 @@ body{
     padding: 0;
     background-image: url(/assets/images/bg.jpg);
 }
-main div{
-    height: 1100;
-    width: 743;
+.sect_main{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+#return{
+    transform: rotate(180deg);
+}
+.buttons{
+    margin: 20px;
+    height: 100px;
+}
+#pages{
+    height: 50px;
+    display: flex;
+    border-radius: 10px;
+}
+#pages h3{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 50px;
+    color: cornflowerblue;
+    font-size: 30px;
+}
+#list_pages{
+    list-style-type: none;
+    display: flex;
+    flex-wrap:wrap;
+    margin: 0;
+}
+#list_pages li a{
+    text-decoration: none;
+    color: white;
+}
+#list_pages li a:hover{
+    color: black;
+}
+.pages_btn{
+    margin-top: 11px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding: 10px;
+    width: 30px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 0, 0, 0.193);
 }
 

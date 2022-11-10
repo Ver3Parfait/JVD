@@ -1,4 +1,10 @@
-
+@font-face {
+    font-family: 'manga';
+    font-style: normal;
+    font-weight: 400;
+    src:
+        url(../../manga.ttf);
+}
 
 body{
     margin: 0;
@@ -34,7 +40,9 @@ body{
 }
 #manga_selection{
     background-image: url(/assets/images/scan_one_piece/scan_681/01.jpg);
-    font-family: 'Komika Sketch', arial;
+    font-family: 'manga', arial;
+    font-weight: 900;
+    
 }
 #selection{
     font-size: 2em;

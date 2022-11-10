@@ -1,0 +1,15 @@
+@media screen and (max-width:992px) {
+    #img_s{
+        max-width: 500px;
+    }
+    .sect_main{
+        flex-direction: column;
+    }
+    #list_pages li a{
+        font-size: 14px;
+    }
+    #pages{
+        flex-direction: column;
+    }
+    
+}
