@@ -1,24 +1,24 @@
 @media screen and (max-width:1198px) {
     #prepa {
         display: flex;
-        flex-direction: column;
+
         align-items: center;
     }
 
     #prepa2 {
         display: flex;
-        flex-direction: column;
+
         align-items: center;
     }
 
     #prepa3{
         display: flex;
-        flex-direction: column;
+
         align-items: center;
     }
     #prepa4{
         display: flex;
-        flex-direction: column;
+
         align-items: center;
     }
 
