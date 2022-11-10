@@ -56,11 +56,28 @@ body {
     max-width: 1300px;
 }
 .selection{
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.248);
+    border-radius: 5px;
     height: 200px;
     width:300px;
     margin:10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Komika Sketch', arial;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
 
+}
+.selection a{
+    text-decoration: none;
+    color:black;
+}
+#manga_selection{
+    background-image: url(/assets/images/article_onepiece.jpg);
+    font-family: 'Komika Sketch', arial;
 }
 #selection{
     font-size: 2em;
