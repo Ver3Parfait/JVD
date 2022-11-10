@@ -28,6 +28,11 @@ width: 150px;
 .grid span {
     font-size: 80px;
 }
+#blueno{
+    bottom: 15px;
+    height:50px ;
+    right: -20px;
+}
 }
 
 @media screen and (max-width:576px) {

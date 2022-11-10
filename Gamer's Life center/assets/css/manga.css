@@ -232,15 +232,15 @@ section article li {
     color: #f1f1f1;
     transition: transform 0.4s ease-out,
         color 0.4s ease-out;
-    transform: rotateY(-30deg);
-}
-
-.letter-anim:hover span::after {
     transform: rotateY(-40deg);
 }
 
+.letter-anim:hover span::after {
+    transform: rotateY(-60deg);
+}
+
 .letter-anim:hover span::before {
-    transform: scale(0.85) skewY(20deg);
+    transform: scale(0.85) skewY(50deg);
 }
 
 .letter-anim:nth-child(1):hover span::after {
@@ -301,4 +301,20 @@ details summary::before {
 
 details[open] summary::before {
     transform: rotate(360deg);
+}
+#blueno{
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: -30px;
+height: 100px;
+}
+#a:hover #blueno {
+    display: block;
+}
+#zoro {
+    height: 80px;
+    position: absolute;
+    bottom: 2%;
+    left: 20px;
 }
