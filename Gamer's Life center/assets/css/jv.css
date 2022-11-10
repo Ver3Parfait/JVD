@@ -67,25 +67,25 @@ main{
     font-size: 60px;
     
 }
-#prepa {
-    display: flex;
+ #prepa {
+        display: flex;
 
-    align-items: center;
-}
+        align-items: center;
+    }
 
-#prepa2 {
-    display: flex;
+    #prepa2 {
+        display: flex;
 
-    align-items: center;
-}
+        align-items: center;
+    }
 
-#prepa3{
-    display: flex;
+    #prepa3{
+        display: flex;
 
-    align-items: center;
-}
-#prepa4{
-    display: flex;
+        align-items: center;
+    }
+    #prepa4{
+        display: flex;
 
-    align-items: center;
-}
+        align-items: center;
+    }
