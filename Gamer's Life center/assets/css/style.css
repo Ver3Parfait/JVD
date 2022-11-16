@@ -5,54 +5,8 @@
     src:
         url(/assets/manga.ttf);
 }
-::before,::after{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-body {
-    background-image: url(/assets/images/bg.jpg);
-    margin: 0;
-    padding: 0;
-
-}
-
-#block_welcome {
-    color: rgba(187, 65, 243, 0.261);
-    display: flex;
-    justify-content: center;
-    background: linear-gradient(90deg, rgba(108, 9, 121, 0.157) 39%, rgba(0, 213, 255, 0.145) 100%);
-    ;
-    backdrop-filter: blur(7px);
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-}
-
-#welcome {
-    z-index: 99;
-}
-
-#slide {
-    position: absolute;
-    display: flex;
-    animation: glisse 50s infinite;
-}
-
-#slide li img {
-    height: 180px;
-    width: 2000px;
-}
-
-#block_welcome #slide {
-    list-style-type: none;
-}
-
-#block_welcome #welcome {
-    display: flex;
-    justify-content: center;
-    font-size: 4em;
-    width: 100%;
+body{
+    background-color: rgb(54, 55, 75);
 }
 .galerie{
     justify-content: center;
@@ -63,19 +17,16 @@ body {
     max-width: 1300px;
 }
 .selection{
-    background-color: rgba(255, 0, 0, 0.248);
-    border-radius: 5px;
-    height: 200px;
+    background-color:rgba(0, 0, 0, 0.261);
+    border-radius: 30px;
+    height: 300px;
     width:300px;
     margin:10px;
-    background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Komika Sketch', arial;
     justify-content: center;
     display: flex;
     align-items: center;
     font-size: 50px;
-    font-weight: bold;
 
 }
 .selection a{
@@ -91,33 +42,4 @@ body {
     color: white;
     margin-top: 50px;
     text-align: center;
-}
-@keyframes glisse {
-    0% {
-        transform: translateX(60%);
-    }
-
-    20% {
-        transform: translateX(40%);
-    }
-
-    40% {
-        transform: translateX(20%);
-    }
-
-    60% {
-        transform: translateX(0%);
-    }
-
-    80% {
-        transform: translateX(-20%);
-    }
-
-    100% {
-        transform: translateX(-40%);
-    }
-
-    0% {
-        transform: translateX(0%);
-    }
 }
